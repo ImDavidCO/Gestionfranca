@@ -1,3 +1,36 @@
+# Gestión Franca - Frontend
+
+Este es el frontend de la aplicación de gestión Franca, diseñada para gestionar facturas y datos relacionados. Esta aplicación se conecta al backend para administrar y mostrar información de facturas.
+
+## Características Principales
+
+- Creación y gestión de facturas.
+- Carga de datos desde archivos Excel.
+- Consulta de facturas existentes.
+
+## Configuración
+
+Asegúrate de tener Node.js y npm instalados en tu sistema antes de continuar.
+
+1. Ejecuta `npm install` para instalar las dependencias.
+2. Ejecuta `npm start` para iniciar la aplicación en modo de desarrollo.
+
+### Componentes Principales
+
+- **ExcelUpload**: Componente para cargar archivos Excel de facturas.
+- **Facturast**: Página principal para ver y gestionar facturas.
+- **Navbar**: Barra de navegación.
+
+## .env
+
+REACT_APP_BACKEND=http://localhost:5000 : Redirige el fetch a la ruta que sea necesaria, para produccion debe ser modificado con la direccion en la que se encuentre desplegada la API
+
+
+## Seguridad
+
+Por el momento no esta implementada la seguridad, sin embargo se recomienda un sistema de usuarios con permisos predefinidos para evitar el acceso o manipulacion de informacion contenida en la base de datos.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
